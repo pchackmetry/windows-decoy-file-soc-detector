@@ -1,10 +1,3 @@
-Yes. The previous README is too repetitive and reads more like raw documentation than a **professional cybersecurity portfolio case study**.
-
-Use this improved version. It is structured like a technical blog: **scenario → architecture → implementation → evidence → detection → SOC investigation → lessons learned → improvements**.
-
-Replace the entire contents of `README.md` with this:
-
-````markdown
 # 🛡️ Windows Decoy File SOC Detector
 
 ### A Practical Windows Endpoint Detection & SOC Investigation Lab
