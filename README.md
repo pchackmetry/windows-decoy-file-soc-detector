@@ -1,8 +1,3 @@
-Yes. You want **only the README text**, with no extra instructions around it.
-
-Copy everything inside this block and paste it directly into `README.md`:
-
-````markdown
 # Windows Decoy File SOC Detector
 
 ## Windows Endpoint Detection and SOC Investigation Lab
@@ -15,7 +10,6 @@ The project combines Windows Security Auditing, Sysmon, PowerShell, Python, and 
 
 The complete process is:
 
-```text
 Create Confidential Directory
         ↓
 Create Decoy File
