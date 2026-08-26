@@ -1,0 +1,14 @@
+<Sysmon schemaversion="4.90">
+  <EventFiltering>
+
+    <FileCreate onmatch="include">
+      <TargetFilename condition="contains">C:\Finance\Confidential</TargetFilename>
+    </FileCreate>
+
+    <ProcessCreate onmatch="include">
+      <Image condition="end with">cmd.exe</Image>
+      <Image condition="end with">powershell.exe</Image>
+    </ProcessCreate>
+
+  </EventFiltering>
+</Sysmon>

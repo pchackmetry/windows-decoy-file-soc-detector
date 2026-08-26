@@ -1,0 +1,2 @@
+# No external Python packages required.
+# The detector uses Python standard library modules.
