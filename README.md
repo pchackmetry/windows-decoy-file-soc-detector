@@ -1084,24 +1084,3 @@ SOC Investigation
 
 The project focuses on demonstrating practical security monitoring and investigation concepts in a controlled environment.
 
----
-
-## ⚠️ Disclaimer
-
-This project is intended strictly for educational and cybersecurity laboratory purposes.
-
-The financial environment, confidential directory, and decoy file are simulated.
-
-No real credentials or confidential organizational information were intentionally used.
-
-Testing was performed in a controlled environment.
-
-````
-
-After pasting it, **save with `Ctrl + S`**. Then run:
-
-```powershell
-Get-Item .\README.md | Select-Object Name,Length
-````
-
-Don't commit it yet. The important thing now is to verify that the new README saved correctly.
